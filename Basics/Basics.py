@@ -1,4 +1,4 @@
-'''a = 10;
+a = 10;
 #THis is a comment
 
 
@@ -12,7 +12,7 @@ print(a % b);
 
 
 print(a+b/b-a);
-'''
+
 '''
 This
 is 
@@ -22,7 +22,7 @@ line
 comment.
 '''
 
-'''
+
 a = 'Hello';
 print(a);
 print(a[0]);#It will return the first character of this string.
@@ -60,9 +60,9 @@ print(li5);
 
 li6 = li1 + li2;
 print(li6);
-'''
 
-'''
+
+
 a = 'Hello';
 b = 'World';
 print(a*4);
@@ -72,51 +72,11 @@ print(a + '!' * 4);
 #tuple
 t1 = (1, 2, 'Mahesh');
 print(t1);
-'''
 
-'''
-def addNumber(a, b):
-        return a+b;
+.........................................................................................
+.........................................................................................
+.........................................................................................
         
-
-print(addNumber(10, 20));
-
-def getName(name, age):
-    print("Hello " + name);
-    print("Age:" + age);
-    
-getName('Mahesh', '19');
-
-def getName1(name, age):
-    print("Hello " + name);
-    print("Age:", age);
-    
-getName1('Mahesh', 19);
-'''
-
-'''
-def swap(a, b):
-    
-    temp = a;
-    a = b;
-    b = temp;
-    
-    a,b = b,a;
-    print(a, b);
-
-a = 10;
-b = 20;    
-
-print('Before swapping');
-print(a, b);
-
-print('After swapping');
-swap(a, b);
-
-
-a = int(input('Enter first value: '));
-b = int(input('Enter second value: '));
-print(a + b);
 
 
 # Experiment 1
@@ -161,7 +121,6 @@ elif(b > c  and b > a):
 else:
     print('c is max');
     
-'''
 
 for x in range(20):
     print(x, ' ');
